@@ -1,0 +1,141 @@
+import { Entry } from '../types';
+import moment from 'moment';
+
+const mockDate = Date.now() - 100000;
+
+const entries: Entry[] = [
+  {
+    id: 'id 1',
+    date: moment(mockDate).subtract(1, 'hour').toISOString(),
+    foodName: 'Test entry 1',
+    calories: 420,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 1.1',
+    date: moment(mockDate).subtract(2, 'hour').toISOString(),
+    foodName: 'Test entry 1.1',
+    calories: 421,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 1.2',
+    date: moment(mockDate).subtract(3, 'hour').toISOString(),
+    foodName: 'Test entry 1.2',
+    calories: 422,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 2',
+    date: moment(mockDate).subtract(2, 'day').toISOString(),
+    foodName: 'Test entry 2',
+    calories: 6900,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 3',
+    date: moment(mockDate).subtract(3, 'day').toISOString(),
+    foodName: 'Test entry 3',
+    calories: 123,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 4',
+    date: moment(mockDate).subtract(4, 'day').toISOString(),
+    foodName: 'Test entry 4',
+    calories: 0,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 5',
+    date: moment(mockDate).subtract(5, 'day').toISOString(),
+    foodName: 'Test entry 5',
+    calories: 2,
+    owner: 'id 2',
+  },
+  {
+    id: 'id 6',
+    date: moment(mockDate).subtract(6, 'day').toISOString(),
+    foodName: 'Test entry 6',
+    calories: 4,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 7',
+    date: moment(mockDate).subtract(7, 'day').toISOString(),
+    foodName: 'Test entry 7',
+    calories: 8,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 8',
+    date: moment(mockDate).subtract(8, 'day').toISOString(),
+    foodName: 'Test entry 8',
+    calories: 16,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 9',
+    date: moment(mockDate).subtract(9, 'day').toISOString(),
+    foodName: 'Test entry 9',
+    calories: 32,
+    owner: 'id 2',
+  },
+  {
+    id: 'id 10',
+    date: moment(mockDate).subtract(10, 'day').toISOString(),
+    foodName: 'Test entry 10',
+    calories: 64,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 15',
+    date: moment(mockDate).subtract(15, 'day').toISOString(),
+    foodName: 'Test entry 15',
+    calories: 128,
+    owner: 'id 2',
+  },
+  {
+    id: 'id 16',
+    date: moment(mockDate).subtract(16, 'day').toISOString(),
+    foodName: 'Test entry 16',
+    calories: 256,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 17',
+    date: moment(mockDate).subtract(17, 'day').toISOString(),
+    foodName: 'Test entry 17',
+    calories: 512,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 11',
+    date: moment(mockDate).subtract(11, 'day').toISOString(),
+    foodName: 'Test entry 11',
+    calories: 128,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 12',
+    date: moment(mockDate).subtract(12, 'day').toISOString(),
+    foodName: 'Test entry 12',
+    calories: 256,
+    owner: 'id 2',
+  },
+  {
+    id: 'id 13',
+    date: moment(mockDate).subtract(13, 'day').toISOString(),
+    foodName: 'Test entry 13',
+    calories: 512,
+    owner: 'id 1',
+  },
+  {
+    id: 'id 14',
+    date: moment(mockDate).subtract(14, 'day').toISOString(),
+    foodName: 'Test entry 14',
+    calories: 64,
+    owner: 'id 2',
+  },
+];
+export default entries;
