@@ -16,6 +16,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-### Project's walk-through video
+### Project's walk-through
 
-You can find it [here](walk-through.mov) (/walk-through.mov)
+
+![walk-through](https://user-images.githubusercontent.com/6429224/151510801-e4e67533-6bcd-4d02-90e4-e2e587fdbb83.gif)
